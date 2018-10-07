@@ -24,12 +24,12 @@ class SmartCalculator {
   }
 
   pow(number) {
-    this.value = `${this.value}^${number}`;
+    this.value = `${this.value}**${number}`;
     return this;
   }
 
   toString() {
-    return eval(this.value); // eslint-disable-line
+    return eval(this.value);// eslint-disable-line
   }
 }
 
